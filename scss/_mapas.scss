@@ -1,0 +1,21 @@
+
+$perfil-standard: (
+bg-color-standard: blue,
+font-size-standard: 1rem,
+font-weigth-standard: none
+);
+
+$perfil-premium: 
+(bg-color-standard: rgb(107, 107, 199),
+font-size-premium: 2rem,
+font-weigth-premium: bold
+);
+
+#premium {
+    font-size: map-get($perfil-premium, font-size-premium);
+}
+
+#standard {
+    font-weight: map-get($perfil-standard, font-weight-standard);
+    
+}

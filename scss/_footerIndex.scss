@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'listas'
+
+.footerIndex {
+    background-color: $background-colorFooter;
+
+    .itemFooter {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            color: nth($colors, 3);
+        }
+    }
+}
